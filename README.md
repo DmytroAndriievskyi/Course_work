@@ -52,5 +52,5 @@ make
 - `grid_core.cpp` - базові операції з сіткою
 - `grid_deduction.cpp` - правила дедукції
 - `grid_solver.cpp` - backtracking солвер
-- `interface.h` - візульаний інтерфейс виводу результатів
+- `interface.h` - візуальний інтерфейс виводу результатів
 - `task5.cpp` - головний файл
