@@ -74,6 +74,8 @@ void run_test(const string& name, const vector<vector<int>>& puzzle) {
 }
 
 int main() {
+    print_title_screen();
+
     vector<vector<int>> test1 = {
         {0,3,5,0,5,4,0,4,4,0},
         {1,0,0,0,0,0,0,0,0,6},
