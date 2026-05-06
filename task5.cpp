@@ -5,9 +5,13 @@
  Student: Andriievskyi D.Y.
  Written: 2025-05-03
  Revised: 2025-05-03
- Description: Main file for the Filomino puzzle solver.
-              Runs three test puzzles and prints the solutions
-              with a progress bar and time taken.
+ Description: Write a program that solves the Filomino puzzle.
+              Fill in each empty cell with a number so that
+              every number on the grid becomes part of a
+              connected region whose size equals that number.
+              A region is connected if any two of its cells
+              share a side. Two regions of equal size must
+              not touch each other side by side.
  ------------------------------------------------------------------</Header>-*/
 
 #include "grid.h"
