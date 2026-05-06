@@ -21,15 +21,6 @@
 #include <chrono>
 using namespace std;
 
-//counts non-zero cells in the grid
-int count_filled(const vector<vector<int>>& grid) {
-    int count = 0;
-    for (auto& row : grid)
-        for (int v : row)
-            if (v != 0) count++;
-    return count;
-}
-
 /* ---------------------------------------------------------------------[<]-
  Function: run_test
  Synopsis: runs solver on a given puzzle, prints initial state,
